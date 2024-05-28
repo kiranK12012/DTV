@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Boxes with Sub Boxes</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 50px 0;
+        }
+        .box {
+            width: 200px;
+            height: 300px;
+            margin: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+        .sub-box {
+            width: 180px;
+            height: 200px;
+            background-color: #000;
+            color: #fff;
+            padding: 10px;
+            margin-top: 10px;
+            overflow: hidden;
+            text-align: left;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box" style="background-color: #1b509f;"><p><b>ADD RECEIVER</b> <a href="page 3.html">click here</a></p>
+    
+            <div class="sub-box"><img src="C:\Users\kiran\Downloads\Telegram Desktop\logo dtv.jpg" height="210" width="180" alt="Logo 1"></div>
+        </div>
+        <div class="box" style="background-color: #33c1ff;"><p><b>ADD CLIENTSv</b></p>
+            <div class="sub-box"><img src="C:\Users\kiran\Downloads\Telegram Desktop\clients.jpg" height="210" width="180" alt="Logo 1"></div>
+        </div>
+        <div class="box" style="background-color: #244c93;"><p><b>ADD SUPPORT HARDWARE</b></p>
+            <div class="sub-box"><img src="C:\Users\kiran\Downloads\Telegram Desktop\bb deca.jpg" height="210" width="180" alt="Logo 1"></div>
+        </div>
+        <div class="box" style="background-color: #337aff;"><p><b>ADD ODU/LNB</b></p>
+            <div class="sub-box"><img src="C:\Users\kiran\Downloads\Telegram Desktop\LNB.jpg" height="210" width="180" alt="Logo 1"></div>
+        </div>
+        
+       
+        </div>
+    </div>
+</body>
+</html>
